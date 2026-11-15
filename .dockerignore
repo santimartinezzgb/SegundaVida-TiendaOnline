@@ -1,0 +1,9 @@
+.git
+.gitignore
+.env
+.env.*
+.agents/
+AGENTS.md
+Enunciado.md
+mejoras.md
+README.md

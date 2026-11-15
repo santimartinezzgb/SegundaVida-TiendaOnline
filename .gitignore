@@ -1,0 +1,21 @@
+# Variables de entorno locales (credenciales)
+.env
+.env.local
+.env.*.local
+
+# Avatares subidos por usuarios en entorno local
+src/uploads/avatars/*
+!src/uploads/avatars/.gitkeep
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
+
+# Documentación interna y archivos del asistente (no necesarios para desplegar)
+.agents/
+AGENTS.md
+Enunciado.md
